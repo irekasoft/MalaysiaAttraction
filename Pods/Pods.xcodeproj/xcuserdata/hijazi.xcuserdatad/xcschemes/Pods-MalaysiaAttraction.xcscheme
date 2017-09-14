@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A36BCBAC1F66C0F700EA42E0"
-               BuildableName = "MalaysiaAttraction.app"
-               BlueprintName = "MalaysiaAttraction"
-               ReferencedContainer = "container:MalaysiaAttraction.xcodeproj">
+               BlueprintIdentifier = "9BCC69290319D05F54086CE7834B21E4"
+               BuildableName = "Pods_MalaysiaAttraction.framework"
+               BlueprintName = "Pods-MalaysiaAttraction"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A36BCBAC1F66C0F700EA42E0"
-            BuildableName = "MalaysiaAttraction.app"
-            BlueprintName = "MalaysiaAttraction"
-            ReferencedContainer = "container:MalaysiaAttraction.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A36BCBAC1F66C0F700EA42E0"
-            BuildableName = "MalaysiaAttraction.app"
-            BlueprintName = "MalaysiaAttraction"
-            ReferencedContainer = "container:MalaysiaAttraction.xcodeproj">
+            BlueprintIdentifier = "9BCC69290319D05F54086CE7834B21E4"
+            BuildableName = "Pods_MalaysiaAttraction.framework"
+            BlueprintName = "Pods-MalaysiaAttraction"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A36BCBAC1F66C0F700EA42E0"
-            BuildableName = "MalaysiaAttraction.app"
-            BlueprintName = "MalaysiaAttraction"
-            ReferencedContainer = "container:MalaysiaAttraction.xcodeproj">
+            BlueprintIdentifier = "9BCC69290319D05F54086CE7834B21E4"
+            BuildableName = "Pods_MalaysiaAttraction.framework"
+            BlueprintName = "Pods-MalaysiaAttraction"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

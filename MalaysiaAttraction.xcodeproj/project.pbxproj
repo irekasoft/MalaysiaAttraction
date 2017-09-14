@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97A0784E44BB54E1A1EA1FBF /* Pods_MalaysiaAttraction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC73D8267038F0334259F8FB /* Pods_MalaysiaAttraction.framework */; };
 		A36BCBB11F66C0F700EA42E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BCBB01F66C0F700EA42E0 /* AppDelegate.swift */; };
 		A36BCBB31F66C0F700EA42E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BCBB21F66C0F700EA42E0 /* ViewController.swift */; };
 		A36BCBB61F66C0F700EA42E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A36BCBB41F66C0F700EA42E0 /* Main.storyboard */; };
 		A36BCBB81F66C0F700EA42E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A36BCBB71F66C0F700EA42E0 /* Assets.xcassets */; };
 		A36BCBBB1F66C0F700EA42E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A36BCBB91F66C0F700EA42E0 /* LaunchScreen.storyboard */; };
+		A36BCBC31F66C12D00EA42E0 /* attraction.csv in Resources */ = {isa = PBXBuildFile; fileRef = A36BCBC21F66C12D00EA42E0 /* attraction.csv */; };
+		A36BCBC51F66CA6300EA42E0 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BCBC41F66CA6200EA42E0 /* ListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		841E3F721EA4A05C59FC0EA0 /* Pods-MalaysiaAttraction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MalaysiaAttraction.release.xcconfig"; path = "Pods/Target Support Files/Pods-MalaysiaAttraction/Pods-MalaysiaAttraction.release.xcconfig"; sourceTree = "<group>"; };
 		A36BCBAD1F66C0F700EA42E0 /* MalaysiaAttraction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MalaysiaAttraction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36BCBB01F66C0F700EA42E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A36BCBB21F66C0F700EA42E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,10 @@
 		A36BCBB71F66C0F700EA42E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A36BCBBA1F66C0F700EA42E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A36BCBBC1F66C0F700EA42E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A36BCBC21F66C12D00EA42E0 /* attraction.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = attraction.csv; sourceTree = "<group>"; };
+		A36BCBC41F66CA6200EA42E0 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		BE9BA3BA061D08DD19B0584E /* Pods-MalaysiaAttraction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MalaysiaAttraction.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MalaysiaAttraction/Pods-MalaysiaAttraction.debug.xcconfig"; sourceTree = "<group>"; };
+		CC73D8267038F0334259F8FB /* Pods_MalaysiaAttraction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MalaysiaAttraction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97A0784E44BB54E1A1EA1FBF /* Pods_MalaysiaAttraction.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9271F9EEF8E3CA2DA3210A4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC73D8267038F0334259F8FB /* Pods_MalaysiaAttraction.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A36BCBA41F66C0F700EA42E0 = {
 			isa = PBXGroup;
 			children = (
 				A36BCBAF1F66C0F700EA42E0 /* MalaysiaAttraction */,
 				A36BCBAE1F66C0F700EA42E0 /* Products */,
+				C149FFB18B2A60A3B1EF44C9 /* Pods */,
+				9271F9EEF8E3CA2DA3210A4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +73,25 @@
 		A36BCBAF1F66C0F700EA42E0 /* MalaysiaAttraction */ = {
 			isa = PBXGroup;
 			children = (
+				A36BCBC21F66C12D00EA42E0 /* attraction.csv */,
 				A36BCBB01F66C0F700EA42E0 /* AppDelegate.swift */,
 				A36BCBB21F66C0F700EA42E0 /* ViewController.swift */,
 				A36BCBB41F66C0F700EA42E0 /* Main.storyboard */,
+				A36BCBC41F66CA6200EA42E0 /* ListTableViewController.swift */,
 				A36BCBB71F66C0F700EA42E0 /* Assets.xcassets */,
 				A36BCBB91F66C0F700EA42E0 /* LaunchScreen.storyboard */,
 				A36BCBBC1F66C0F700EA42E0 /* Info.plist */,
 			);
 			path = MalaysiaAttraction;
+			sourceTree = "<group>";
+		};
+		C149FFB18B2A60A3B1EF44C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE9BA3BA061D08DD19B0584E /* Pods-MalaysiaAttraction.debug.xcconfig */,
+				841E3F721EA4A05C59FC0EA0 /* Pods-MalaysiaAttraction.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A36BCBBF1F66C0F700EA42E0 /* Build configuration list for PBXNativeTarget "MalaysiaAttraction" */;
 			buildPhases = (
+				77776A0963762B445A319F25 /* [CP] Check Pods Manifest.lock */,
 				A36BCBA91F66C0F700EA42E0 /* Sources */,
 				A36BCBAA1F66C0F700EA42E0 /* Frameworks */,
 				A36BCBAB1F66C0F700EA42E0 /* Resources */,
+				F57F52C79C9A2AB5691C167D /* [CP] Embed Pods Frameworks */,
+				327EFDE370CC620A7B89AE8E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A36BCBBB1F66C0F700EA42E0 /* LaunchScreen.storyboard in Resources */,
+				A36BCBC31F66C12D00EA42E0 /* attraction.csv in Resources */,
 				A36BCBB81F66C0F700EA42E0 /* Assets.xcassets in Resources */,
 				A36BCBB61F66C0F700EA42E0 /* Main.storyboard in Resources */,
 			);
@@ -132,11 +166,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		327EFDE370CC620A7B89AE8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MalaysiaAttraction/Pods-MalaysiaAttraction-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77776A0963762B445A319F25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F57F52C79C9A2AB5691C167D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MalaysiaAttraction/Pods-MalaysiaAttraction-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A36BCBA91F66C0F700EA42E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A36BCBC51F66CA6300EA42E0 /* ListTableViewController.swift in Sources */,
 				A36BCBB31F66C0F700EA42E0 /* ViewController.swift in Sources */,
 				A36BCBB11F66C0F700EA42E0 /* AppDelegate.swift in Sources */,
 			);
@@ -259,6 +342,7 @@
 		};
 		A36BCBC01F66C0F700EA42E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE9BA3BA061D08DD19B0584E /* Pods-MalaysiaAttraction.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 23A6EJTDXW;
@@ -272,6 +356,7 @@
 		};
 		A36BCBC11F66C0F700EA42E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 841E3F721EA4A05C59FC0EA0 /* Pods-MalaysiaAttraction.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 23A6EJTDXW;
@@ -302,6 +387,7 @@
 				A36BCBC11F66C0F700EA42E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
